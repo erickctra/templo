@@ -1373,6 +1373,9 @@ footer p {
   line-height: 150%;
   font-size: 14px;
 
+  margin-bottom: var(--padding-x);
+
+
 }
 
 footer .logo {
