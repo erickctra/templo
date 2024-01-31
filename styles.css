@@ -1131,6 +1131,8 @@ nav ul li:active>ul {
   max-width: none;
   display: inline;
 
+  scroll-margin-top: 200px;
+
   flex: 1;
   /* height: 60px; */
 
@@ -1225,6 +1227,26 @@ nav ul li:active>ul {
   justify-content: space-around;
 }
 
+.max-m-services-page {
+  flex-direction: column;
+  max-width: 650px;
+}
+
+.max-m-services-page .services-footer {
+  padding: var(--padding-x);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.max-m-services-page .content ul ul {
+
+  display: inline;
+  
+}
+.max-m-services-page .content ul li {
+  max-width: none;
+}
 .black-bg sub {
   background-color: rgba(255, 255, 255, 0.1);
 }
