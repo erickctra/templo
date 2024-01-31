@@ -1056,6 +1056,7 @@ h3 {
 /* 000000000000000000000000000000 */
 
 .services .content>ul {
+  padding: var(--padding-x);
   list-style: none;
   margin-top: 24px;
   display: flex;
